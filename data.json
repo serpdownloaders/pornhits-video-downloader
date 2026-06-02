@@ -1,0 +1,213 @@
+{
+  "github_source_repo": "https://github.com/serpcompany/pornhits-downloader",
+  "serply_link": "https://serp.ly/pornhits-downloader",
+  "app_name": "Pornhits Video Downloader",
+  "short_description": "Download & Save Pornhits Videos Easily for Offline Viewing (Browser Extension)",
+  "long_description": "Pornhits Downloader is a browser extension built to help you capture video content from PornHits main-feed video pages. Instead of relying on generic download tools, this extension understands the specific page structure of PornHits, including the iframe-based playback handoff that happens behind the scenes. Whether you are archiving content for personal use or building a local library, this tool gives you a focused way to save media from supported video entry pages.",
+  "main_video": "",
+  "featured_image": "",
+  "screenshots": [
+    "https://apps.serp.co/media/optimized-products/pornhits-downloader-fullscreen-01-f2a7cc2e0b.webp",
+    "https://apps.serp.co/media/optimized-products/pornhits-downloader-fullscreen-02-6e3af3cd01.webp",
+    "https://apps.serp.co/media/optimized-products/pornhits-downloader-fullscreen-03-b2d7406eba.webp",
+    "https://apps.serp.co/media/optimized-products/pornhits-downloader-fullscreen-04-ef4f9b6c7f.webp"
+  ],
+  "chromestore_link": "",
+  "firefoxstore_link": "",
+  "other_links": [],
+  "faqs": [
+    {
+      "question": "Does this extension work on every PornHits page?",
+      "answer": "It is designed for /video/{slug}/ pages. Other sections of the site may not trigger the detection logic."
+    },
+    {
+      "question": "Is my account or browsing data shared with anyone?",
+      "answer": "The extension does not collect or transmit your personal data. All processing happens locally in your browser."
+    },
+    {
+      "question": "Can I download multiple videos at the same time?",
+      "answer": "It is recommended to download one video at a time to avoid conflicts or incomplete files."
+    },
+    {
+      "question": "What happens if a video is removed from PornHits after I start downloading?",
+      "answer": "The download should still complete as long as the stream was already detected and buffered."
+    },
+    {
+      "question": "Do I need to keep the PornHits tab open during the download?",
+      "answer": "Yes, the extension needs the page to remain open and active while it processes the stream."
+    }
+  ],
+  "permissions": [
+    {
+      "name": "",
+      "description": "Keeping a backup copy of content you have permission to save"
+    },
+    {
+      "name": "",
+      "description": "Only download content you own or have explicit permission to save"
+    }
+  ],
+  "features": [
+    "Works directly on PornHits /video/{slug}/ pages",
+    "Detects media through the iframe playback layer",
+    "Outputs standard MP4 files for easy playback",
+    "Lightweight browser extension with a simple popup interface",
+    "Includes a free trial so you can test before committing",
+    "Targeted support for PornHits /video/{slug}/ pages",
+    "Iframe-aware media detection that follows the site's playback handoff",
+    "Outputs standard MP4 files compatible with most media players",
+    "Simple popup interface for initiating downloads",
+    "Quality selection when multiple stream options are available",
+    "Secure email sign-in with one-time password verification",
+    "Free trial with 3 downloads to test the workflow",
+    "Lightweight extension that does not slow down browsing"
+  ],
+  "content": {
+    "why": [
+      "PornHits organizes its content around a main-feed browsing experience where users move from the /main/ section into dedicated video pages. These video pages often delegate playback to an embedded iframe layer, making it harder for standard browser download methods to capture the media directly. Without a tool that understands this page pattern, saving videos requires manual inspection of network requests or unreliable third-party sites.",
+      "Pornhits Downloader was designed specifically for this page structure. It works on /video/{slug}/ routes, watches for the iframe handoff, and looks for m3u8 or mp4 media sources that appear during playback. The result is a straightforward download process that fits naturally into how PornHits presents its content."
+    ],
+    "how_it_works": [
+      "Install the extension from the latest release.",
+      "Open PornHits and go to a supported video page.",
+      "Start playback so the extension can detect the media.",
+      "Open the popup or use the on-page controls.",
+      "Choose the quality option you want.",
+      "Start the download and wait for the MP4 export to finish.",
+      "Save the final file locally."
+    ],
+    "tutorial": [
+      "Navigate to PornHits and browse the main feed until you find a video you want to save.",
+      "Click on the video to open its dedicated page, which will have a URL shaped like /video/{slug}/.",
+      "Allow the page to load fully and start the video playback so the embedded iframe layer becomes active.",
+      "Click the Pornhits Downloader icon in your browser toolbar to open the popup.",
+      "Wait a moment while the extension scans the page for available media streams.",
+      "Review the detected quality options and select your preferred resolution.",
+      "Click the download button and let the extension process the stream into an MP4 file.",
+      "Save the completed file to your desired location when prompted."
+    ],
+    "supported_formats": [
+      "Input: m3u8 and mp4 streams detected through the iframe playback layer on PornHits video pages",
+      "Output: MP4",
+      "Saved files use MP4 so they are easier to replay on standard media players, move between devices, or archive locally."
+    ],
+    "target_users": [
+      "Regular PornHits users who want to save videos for offline viewing",
+      "Collectors building a personal library of content from the platform",
+      "Users who prefer local playback over streaming from a browser",
+      "Anyone frustrated by manual download methods that require inspecting network traffic"
+    ],
+    "use_cases": [
+      "Saving a favorite video to watch later without an internet connection",
+      "Archiving content that may be removed or become unavailable on the platform",
+      "Building a curated collection of videos organized by personal preference",
+      "Transferring videos to another device for playback on a larger screen",
+      "Keeping a backup copy of content you have permission to save"
+    ],
+    "troubleshooting": [
+      "The extension does not detect any media on the video page Make sure the video is playing or has been started at least once. The extension needs the iframe layer to be active in order to detect the stream.",
+      "The download starts but fails partway through Check your internet connection and try again. Large files may also be affected by temporary network interruptions.",
+      "I cannot see the popup when I click the extension icon Verify that you are on a supported PornHits /video/{slug}/ page. The extension only activates on pages that match this pattern.",
+      "The quality options look limited or incorrect Not all videos offer multiple stream qualities. The extension shows whatever the page makes available through the iframe layer.",
+      "My download completed but the file will not play Make sure you have a modern media player that supports MP4 files. If the issue persists, try downloading the video again."
+    ],
+    "trial_access": [
+      "Includes 3 free downloads so you can test the workflow first",
+      "Email sign-in uses secure one-time password verification",
+      "No credit card required for the trial",
+      "Unlimited downloads are available with a paid license"
+    ],
+    "installation_instructions": [
+      "Open the latest release page.",
+      "Download the correct build for your browser.",
+      "Install the extension.",
+      "Open a supported PornHits page.",
+      "Use the popup to detect and download the media."
+    ],
+    "notes": [
+      "Only download content you own or have explicit permission to save",
+      "An internet connection is required for downloads",
+      "PornHits video pages use an iframe handoff that may introduce slight delays in media detection",
+      "The extension targets /video/{slug}/ routes and may not activate on other page types"
+    ],
+    "about": [
+      "PornHits is a video platform that organizes adult content through a main-feed browsing experience. Its video pages use an iframe-based playback system, which is why a dedicated downloader that understands this page structure can make saving videos much simpler."
+    ]
+  },
+  "serpx_link": "https://serpx.link/pornhits-downloader",
+  "github_topics": [
+    "pornhits-download",
+    "pornhits-downloader",
+    "pornhits-video-downloader",
+    "pornhits-video-downloader-online",
+    "pornhits-video-downloader-mac",
+    "pornhits-video-downloader-window",
+    "pornhits-video-downloader-free",
+    "pornhits-video-downloader-extension",
+    "pornhits-video-downloader-app",
+    "pornhits-video-downloader-chrome",
+    "pornhits-video-downloader-from-url",
+    "how-to-download-pornhits-videos",
+    "how-to-download-pornhits-videos-mac",
+    "how-to-download-pornhits-videos-windows",
+    "how-to-download-pornhits-videos-online",
+    "how-to-download-pornhits-videos-free",
+    "how-to-download-from-pornhits",
+    "how-to-download-videos-from-pornhits",
+    "download-pornhits-videos",
+    "pornhits-video-tutorial",
+    "save-pornhits-videos",
+    "pornhits-video-content-saver",
+    "how-to-download-pornhits-videos-for-free"
+  ],
+  "hashtags": [
+    "#PornhitsDownload",
+    "#PornhitsDownloader",
+    "#PornhitsVideoDownloader",
+    "#PornhitsVideoDownloaderOnline",
+    "#PornhitsVideoDownloaderMac",
+    "#PornhitsVideoDownloaderWindow",
+    "#PornhitsVideoDownloaderFree",
+    "#PornhitsVideoDownloaderExtension",
+    "#PornhitsVideoDownloaderApp",
+    "#PornhitsVideoDownloaderChrome",
+    "#PornhitsVideoDownloaderFromURL",
+    "#HowToDownloadPornhitsVideos",
+    "#HowToDownloadPornhitsVideosMac",
+    "#HowToDownloadPornhitsVideosWindows",
+    "#HowToDownloadPornhitsVideosOnline",
+    "#HowToDownloadPornhitsVideosFree",
+    "#HowToDownloadFromPornhits",
+    "#HowToDownloadVideosFromPornhits",
+    "#DownloadPornhitsVideos",
+    "#PornhitsVideoTutorial",
+    "#SavePornhitsVideos",
+    "#PornhitsVideoContentSaver",
+    "#HowToDownloadPornhitsVideosForFree"
+  ],
+  "youtube_tags": [
+    "Pornhits Download",
+    "Pornhits Downloader",
+    "Pornhits Video Downloader",
+    "Pornhits Video Downloader Online",
+    "Pornhits Video Downloader Mac",
+    "Pornhits Video Downloader Window",
+    "Pornhits Video Downloader Free",
+    "Pornhits Video Downloader Extension",
+    "Pornhits Video Downloader App",
+    "Pornhits Video Downloader Chrome",
+    "Pornhits Video Downloader From URL",
+    "How To Download Pornhits Videos",
+    "How To Download Pornhits Videos Mac",
+    "How To Download Pornhits Videos Windows",
+    "How To Download Pornhits Videos Online",
+    "How To Download Pornhits Videos Free",
+    "How To Download From Pornhits",
+    "How To Download Videos From Pornhits",
+    "Download Pornhits Videos",
+    "Pornhits Video Tutorial",
+    "Save Pornhits Videos",
+    "Pornhits Video Content Saver",
+    "How To Download Pornhits Videos For Free"
+  ]
+}
